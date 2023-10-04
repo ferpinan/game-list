@@ -30,15 +30,15 @@ public class GameDetail {
     @JsonProperty("isNewBox")
     private Integer isNewBox;
     @JsonProperty("cashPrice")
-    private Integer cashPrice;
+    private Double cashPrice;
     @JsonProperty("exchangePrice")
-    private Integer exchangePrice;
+    private Double exchangePrice;
     @JsonProperty("sellPrice")
-    private Integer sellPrice;
+    private Double sellPrice;
     @JsonProperty("firstPrice")
-    private Integer firstPrice;
+    private Double firstPrice;
     @JsonProperty("previousPrice")
-    private Integer previousPrice;
+    private Double previousPrice;
     @JsonProperty("lastPriceUpdatedDate")
     private String lastPriceUpdatedDate;
     @JsonProperty("boxRating")
